@@ -62,6 +62,7 @@ export class NestApplication extends NestApplicationContext
     private readonly appOptions: NestApplicationOptions = {},
   ) {
     super(container);
+    console.log('THIS IS A TEST');
 
     this.selectContextModule();
     this.registerHttpServer();
